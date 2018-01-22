@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AddTwoNumbers
+namespace Add_Two_Numbers
 {
     class Program
     {
@@ -13,8 +13,7 @@ namespace AddTwoNumbers
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int sum = a + b;
-            Console.WriteLine("{0} + {1} = {sum}", a, b, sum);
-
+            Console.WriteLine("{0} + {1} = {2}", a, b, sum);
         }
     }
 }
